@@ -23,11 +23,22 @@ O projeto segue a arquitetura em camadas:
 ```
 src/main/java/br/com/spring/boot/model
 │
-├── controller → Camada de entrada (APIs REST)
-├── service → Regras de negócio
-├── repository → Acesso a dados (JPA/Hibernate)
-├── model → Entidades e DTOs
-└── exception → Tratamento de exceções
+├── api → Camada de entrada (Controllers / APIs REST)
+│
+├── dto → Objetos de transferência de dados
+│ ├── enums → Enumerações utilizadas nos DTOs
+│ ├── request → Objetos usados nas requisições (entrada de dados)
+│ └── response → Objetos usados nas respostas (saída de dados)
+│
+├── exceptions → Classes de exceção e handlers globais
+│
+├── models → Entidades JPA (mapeamento do banco de dados)
+│
+├── repositories → Interfaces de acesso a dados (Spring Data JPA)
+│
+├── services → Regras de negócio e orquestração entre camadas
+│
+└── utils → Classes utilitárias e helpers
 ```
 
 ---
