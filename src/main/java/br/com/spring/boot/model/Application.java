@@ -1,13 +1,13 @@
-package br.com.smartCare;
+package br.com.spring.boot.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SmartCareApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartCareApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

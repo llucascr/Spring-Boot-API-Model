@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com</groupId>
-	<artifactId>smartCare</artifactId>
+	<artifactId>spring.boot.model</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>smartCare</name>
+	<name>spring.boot.model</name>
 	<description>Demo project</description>
 	<url/>
 	<licenses>
